@@ -3,19 +3,27 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body class="d-flex flex-column min-vh-100" data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="10" tabindex="0">
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+    <main>{{ content }}</main>
 
     {%- include footer.html -%}
 
-    <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/javascript/bootstrap.bundle.min.js' | relative_url }}"></script>
+    <script>
+    window.addEventListener('scroll', function() {
+      var element = document.getElementById('site-header');
+      var scrollTop = window.scrollY || window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop || 0;
+
+      if (scrollTop > 50) {
+        element.classList.add('scrolled');
+      } else {
+        element.classList.remove('scrolled');
+      }
+    });
+  </script>
 
   </body>
 

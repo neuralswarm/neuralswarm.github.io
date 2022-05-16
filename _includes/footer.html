@@ -1,0 +1,30 @@
+<footer id="site-footer" class="mt-auto bg-dark">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-8 order-3 order-md-1 my-4 my-md-0">
+        <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+          <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+        </svg>
+        <p class="mt-4 text-secondary"><small>Copyright &copy; {{ 'now' | date: "%Y" }} {{ site.title | escape }}</small></p>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2 order-1 order-md-2">
+        <ol class="list-unstyled lh-lg">
+          <li><a href="{{ "#services" | relative_url }}">Services</a></li>
+          <li><a href="{{ "#approach" | relative_url }}">Our Approach</a></li>
+          <li><a href="{{ "#capabilities" | relative_url }}">Capabilities</a></li>
+          <li><a href="{{ "#work" | relative_url }}">Recent Work</a></li>
+          <li><a href="{{ "#about" | relative_url }}">About</a></li>
+          <li><a href="{{ "#contact" | relative_url }}">Get in Touch</a></li>
+        </ol>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2 order-2 order-md-3">
+        <ol class="list-unstyled lh-lg">
+          <li><a href="{{ "blog" | relative_url }}">Blog</a></li>
+          <li><a href="{{ "terms-of-use" | relative_url }}">Terms of Use</a></li>
+          <li><a href="{{ "privacy-policy" | relative_url }}">Privacy Policy</a></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</footer>

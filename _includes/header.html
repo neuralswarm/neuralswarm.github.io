@@ -1,0 +1,61 @@
+<header id="site-header" class="fixed-top">
+  <div class="container">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid px-0">
+        <button class="navbar-toggler border-0 px-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle offcanvas navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mx-auto pe-5" href="{{ "/" | relative_url }}">
+          <svg class="svg-logo" viewBox="1 1 23 23">
+            <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+          </svg>
+          <span class="text-primary text-uppercase">{{ site.title | escape }}</span>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            {%- if page.layout == 'home' -%}
+            <li class="nav-item"><a class="nav-link"      href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link ms-4" href="#approach">Our Approach</a></li>
+            <li class="nav-item"><a class="nav-link ms-4" href="#capabilities">Capabilities</a></li>
+            <li class="nav-item"><a class="nav-link ms-4" href="#work">Recent Work</a></li>
+            <li class="nav-item"><a class="nav-link ms-4" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link ms-4" href="#contact">Get in Touch</a></li>
+            {%- else -%}
+            <li class="nav-item"><a class="nav-link"      href="{{ "#services" | relative_url }}">Services</a></li>
+            <li class="nav-item"><a class="nav-link ms-4" href="{{ "#approach" | relative_url }}">Our Approach</a></li>
+            <li class="nav-item"><a class="nav-link ms-4" href="{{ "#capabilities" | relative_url }}">Capabilities</a></li>
+            <li class="nav-item"><a class="nav-link ms-4" href="{{ "#work" | relative_url }}">Recent Work</a></li>
+            <li class="nav-item"><a class="nav-link ms-4" href="{{ "#about" | relative_url }}">About</a></li>
+            <li class="nav-item"><a class="nav-link ms-4" href="{{ "#contact" | relative_url }}">Get in Touch</a></li>
+            {%- endif -%}
+            {%- if (page.layout == 'blog') or (page.layout == 'post') -%}
+            <li class="nav-item"><a class="nav-link ms-4 active-blog" href="{{ "blog" | relative_url }}">Blog</a></li>
+            {%- else -%}
+            <li class="nav-item"><a class="nav-link ms-4" href="{{ "blog" | relative_url }}">Blog</a></li>
+            {%- endif -%}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close btn-close-white text-reset px-1 py-4" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body py-0">
+    <ul class="nav flex-column">
+      <li class="nav-item"><a class="nav-link fs-2 px-0" href="{{ "#services" | relative_url }}">Services</a></li>
+      <li class="nav-item"><a class="nav-link fs-2 px-0" href="{{ "#approach" | relative_url }}">Our Approach</a></li>
+      <li class="nav-item"><a class="nav-link fs-2 px-0" href="{{ "#capabilities" | relative_url }}">Capabilities</a></li>
+      <li class="nav-item"><a class="nav-link fs-2 px-0" href="{{ "#work" | relative_url }}">Recent Work</a></li>
+      <li class="nav-item"><a class="nav-link fs-2 px-0" href="{{ "#about" | relative_url }}">About</a></li>
+      <li class="nav-item"><a class="nav-link fs-2 px-0" href="{{ "#contact" | relative_url }}">Get in Touch</a></li>
+      <li class="nav-item"><a class="nav-link fs-2 px-0" href="{{ "blog" | relative_url }}">Blog</a></li>
+      <li class="nav-item mt-4"><a class="nav-link px-0" href="{{ "terms-of-use" | relative_url }}">Terms of Use</a></li>
+      <li class="nav-item"><a class="nav-link px-0" href="{{ "privacy-policy" | relative_url }}">Privacy Policy</a></li>
+    </ul>
+  </div>
+</div>

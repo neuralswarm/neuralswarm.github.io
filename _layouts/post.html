@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+<header>
+  <div id="splash" class="filter" style="background-image: url('{{ page.image | relative_url }}')"></div>
+  <div class="container">
+    <div class="row gx-0 justify-content-center">
+      <div class="col-12 col-lg-6">
+        <h1 class="display-5" itemprop="name headline">{{ page.title | escape }}</h1>
+        <p class="d-none d-lg-block mb-0 fs-5"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %Y" }}</time></p>
+        <p class="d-block d-lg-none mb-0 fs-6"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %Y" }}</time></p>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="py-5 bg-dark">
+  <div class="container">
+    <div class="row gx-0">
+      <div class="d-none d-lg-block col-lg-2">
+        <aside class="text-secondary">
+          <hr>
+          <p>Timothy Leung</p>
+          <p>{%- include read_time.html content=page.content -%}</p>
+          <p>Share</p>
+          <hr>
+        </aside>
+      </div>
+      <div class="d-none d-lg-block col-lg-1"></div>
+      <div class="col-12 col-lg-6">
+        <article itemprop="articleBody">{{ content }}</article>
+        {%- if site.disqus.shortname -%}
+          {%- include disqus_comments.html -%}
+        {%- endif -%}
+        <a href="{{ page.url | relative_url }}" hidden></a>
+      </div>
+      <div class="d-none d-lg-block col-lg-3"></div>
+    </div>
+  </div>
+</section>
+<section id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="mb-4">More Posts</h2>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-3 g-md-4">
+      {% for post in site.posts %}
+        {% if post.url == page.url %}
+          {% assign pOffset = forloop.index0 | plus: 1 %}
+          {% assign nOffset = forloop.index0 | minus: 1 %}
+
+          {% if forloop.last == false %}
+            {% assign previous_post = site.posts[pOffset] %}
+            <div class="col">
+              <div class="card h-100 bg-dark border-0">
+                <div class="image-container">
+                  <div class="card-img-top image filter" style="background-image: url('{{ previous_post.image | relative_url }}')"></div>
+                </div>
+                <div class="card-body p-3 p-lg-4">
+                  <h2 class="card-title fs-3"><a class="link-primary stretched-link" href="{{ previous_post.url | relative_url }}">{{ previous_post.title | escape }}</a></h2>
+                  <p class="m-0 text-secondary">{{ previous_post.date | date: "%b %Y" }}</p>
+                </div>
+              </div>
+            </div>
+          {% else %}
+            <div class="col">
+              <div class="card h-100 bg-dark border-0"></div>
+            </div>
+          {% endif %}
+
+          {% if forloop.first == false %}
+            {% assign next_post = site.posts[nOffset] %}
+            <div class="col">
+              <div class="card h-100 bg-dark border-0">
+                <div class="image-container">
+                  <div class="card-img-top image filter" style="background-image: url('{{ next_post.image | relative_url }}')"></div>
+                </div>
+                <div class="card-body p-3 p-lg-4">
+                  <h2 class="card-title fs-3"><a class="link-primary stretched-link" href="{{ next_post.url | relative_url }}">{{ next_post.title | escape }}</a></h2>
+                  <p class="m-0 text-secondary">{{ next_post.date | date: "%b %Y" }}</p>
+                </div>
+              </div>
+            </div>
+          {% else %}
+            <div class="col">
+              <div class="card h-100 bg-dark border-0"></div>
+            </div>
+          {% endif %}
+
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
