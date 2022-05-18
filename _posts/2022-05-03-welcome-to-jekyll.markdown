@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Welcome to Jekyll!
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: assets/images/work/license-plate-recognition.jpg
-authors: [Timothy Leung]
 category: Learn
+title: Welcome to Jekyll!
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+image: assets/images/work/license-plate-recognition.jpg
+author: tlyleung
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
