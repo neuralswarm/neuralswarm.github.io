@@ -45,7 +45,9 @@ p.lead {
   }
 }
 
-article {
+
+article,
+.article-header {
   font-size: 1.125rem;
 
   @include media-breakpoint-down(lg) {
@@ -152,7 +154,9 @@ main {
 
 #blog {
   .card {
-    .image-container {
+    .card-header {
+      padding: 0;
+      border: 0;
       overflow: hidden;
     }
 
@@ -184,8 +188,17 @@ main {
 }
 
 .bg-dark {
+
   .text-secondary {
     color: #999999 !important;
+  }
+
+  .link-secondary {
+    color: #999999 !important;
+
+    &:hover {
+      color: $primary !important;
+    }  
   }
 
   .bg-dark {
@@ -216,10 +229,24 @@ main {
 }
 
 .image {
-  height: 240px;
+  height: 200px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.share-links {
+  a {
+    .svg-icon {
+      fill: #999999;
+      stroke: #999999;
+    }
+    
+    &:hover .svg-icon {
+      fill: $primary;
+      stroke: $primary;
+    }
+  }
 }
 
 /*
