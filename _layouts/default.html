@@ -36,6 +36,15 @@
         Array.prototype.forEach.call(pills, pill => pill.classList.remove('active'));
         pills[event.to].classList.add('active');
       });
+
+      /* Close offcanvas menu when clicking anchor links. */
+      const offcanvas_links = document.querySelectorAll('.offcanvas-body .nav-link');
+      Array.prototype.forEach.call(offcanvas_links, function(offcanvas_link) {
+        offcanvas_link.addEventListener('click', event => {
+          const offcanvas = document.getElementById('offcanvasNav');
+          bootstrap.Offcanvas.getInstance(offcanvas).hide();
+        });
+      });
     </script>
 
   </body>
