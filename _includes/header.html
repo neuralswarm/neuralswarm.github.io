@@ -11,7 +11,7 @@
           <svg class="svg-logo" viewBox="1 1 23 23">
             <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
           </svg>
-          <span class="text-primary text-uppercase">{{ site.title | escape }}</span>
+          <span class="text-uppercase">{{ site.title | escape }}</span>
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
@@ -31,9 +31,9 @@
             <li class="nav-item"><a class="nav-link ms-4" href="{{ "#contact" | relative_url }}">Get in Touch</a></li>
             {%- endif -%}
             {%- if (page.layout == 'blog') or (page.layout == 'post') -%}
-            <li class="nav-item"><a class="nav-link ms-4 active-blog" href="{{ "blog" | relative_url }}">Blog</a></li>
+            <!-- <li class="nav-item"><a class="nav-link ms-4 active-blog" href="{{ "blog" | relative_url }}">Blog</a></li> -->
             {%- else -%}
-            <li class="nav-item"><a class="nav-link ms-4" href="{{ "blog" | relative_url }}">Blog</a></li>
+            <!-- <li class="nav-item"><a class="nav-link ms-4" href="{{ "blog" | relative_url }}">Blog</a></li> -->
             {%- endif -%}
           </ul>
         </div>
@@ -53,7 +53,7 @@
       <li class="nav-item"><a class="nav-link fs-2 px-0" href="{{ "#work" | relative_url }}">Recent Work</a></li>
       <li class="nav-item"><a class="nav-link fs-2 px-0" href="{{ "#about" | relative_url }}">About</a></li>
       <li class="nav-item"><a class="nav-link fs-2 px-0" href="{{ "#contact" | relative_url }}">Get in Touch</a></li>
-      <li class="nav-item"><a class="nav-link fs-2 px-0" href="{{ "blog" | relative_url }}">Blog</a></li>
+      <!-- <li class="nav-item"><a class="nav-link fs-2 px-0" href="{{ "blog" | relative_url }}">Blog</a></li> -->
       <li class="nav-item mt-4"><a class="nav-link px-0" href="{{ "terms-of-use" | relative_url }}">Terms of Use</a></li>
       <li class="nav-item"><a class="nav-link px-0" href="{{ "privacy-policy" | relative_url }}">Privacy Policy</a></li>
     </ul>

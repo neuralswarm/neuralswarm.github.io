@@ -2,7 +2,18 @@
 layout: default
 ---
 
-<section id="blog">
+<header class="article-header">
+  <div id="splash" class="filter" style="background-image: url('{{ "assets/images/hero.jpg" | relative_url }}'); background-position: bottom center;"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="display-5 my-3" itemprop="name headline">Blog</h1>
+        <p class="mb-0">Neural Swarm’s latest thinking on creating business value using Artificial Intelligence.</p>
+      </div>
+    </div>
+  </div>
+</header>
+<section id="blog" class="py-5">
   <div class="container">
     {%- if site.posts.size > 0 -%}
     <div class="row row-cols-1 row-cols-md-2 g-3 g-md-4">

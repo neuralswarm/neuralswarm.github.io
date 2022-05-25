@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<header class="article-header">
+  <div id="splash" class="filter" style="background-image: url('{{ page.image | relative_url }}'); background-position: bottom center;"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="display-5 my-3" itemprop="name headline">{{ page.title | escape }}</h1>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="py-5 bg-dark">
+  <div class="container">
+    <div class="row">
+      <article itemprop="articleBody">{{ content }}</article>
+    </div>
+  </div>
+</section>
+<section id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="mb-4">Recent Articles</h2>
+      </div>
+    </div>
+    {%- if site.posts.size > 1 -%}
+    <div class="row row-cols-1 row-cols-md-2 g-3 g-md-4">
+      {% assign post0 = site.posts[0] %}
+      {% assign post1 = site.posts[1] %}
+      {%- include post_card.html post=post0 -%}
+      {%- include post_card.html post=post1 -%}
+    </div>
+    {%- endif -%}
+
+  </div>
+</section>

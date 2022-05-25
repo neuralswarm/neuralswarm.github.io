@@ -12,18 +12,31 @@
     {%- include footer.html -%}
 
     <script src="{{ '/assets/javascript/bootstrap.bundle.min.js' | relative_url }}"></script>
-    <script>
-    window.addEventListener('scroll', function() {
-      var element = document.getElementById('site-header');
-      var scrollTop = window.scrollY || window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop || 0;
 
-      if (scrollTop > 50) {
-        element.classList.add('scrolled');
-      } else {
-        element.classList.remove('scrolled');
+    <script>
+      window.addEventListener('scroll', function() {
+        var element = document.getElementById('site-header');
+        var scrollTop = window.scrollY || window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop || 0;
+
+        if (scrollTop > 50) {
+          element.classList.add('scrolled');
+        } else {
+          element.classList.remove('scrolled');
+        }
+      });
+
+      function slide(slide_number) {
+        var carousel = bootstrap.Carousel.getInstance(document.getElementById('carousel'));
+        carousel.to(slide_number);
+        carousel.pause();
       }
-    });
-  </script>
+
+      document.getElementById('carousel').addEventListener('slide.bs.carousel', event => {
+        const pills = document.querySelectorAll('.nav-pills .nav-link');
+        Array.prototype.forEach.call(pills, pill => pill.classList.remove('active'));
+        pills[event.to].classList.add('active');
+      });
+    </script>
 
   </body>
 

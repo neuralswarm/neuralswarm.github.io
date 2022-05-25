@@ -31,7 +31,11 @@ layout: default
       </div>
       <div class="d-none d-lg-block col-lg-1"></div>
       <div class="col-12 col-lg-6">
-        <article itemprop="articleBody">{{ content }}</article>
+        <article itemprop="articleBody">
+          {{ content }}
+          <hr class="my-5">
+          {%- include newsletter.html message="Never miss an article with our monthly newsletter." -%}
+        </article>
         {%- if site.disqus.shortname -%}
           {%- include disqus_comments.html -%}
         {%- endif -%}
@@ -45,7 +49,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col">
-        <h2 class="mb-4">More Posts</h2>
+        <h2 class="mb-4">More Articles</h2>
       </div>
     </div>
     <div class="row row-cols-1 row-cols-md-2 g-3 g-md-4">

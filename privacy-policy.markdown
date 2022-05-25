@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: legal
 title: Privacy Policy
 date: 2022-05-04
 image: assets/images/hero.jpg
