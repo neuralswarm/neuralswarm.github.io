@@ -29,17 +29,12 @@ url: "https://neuralswarm.com" # the base hostname & protocol for your site, e.g
 google_analytics: UA-65030340-1
 logo: assets/images/logo.png
 locale: en_HK
-author:
-  name: Timothy Leung
-  twitter: tlyleung
-  image: assets/images/headshot.jpg
 twitter:
   username: neuralswarm
   card: summary_large_image
 timezone: Asia/Hong_Kong
 minima:
   date_format: "%b %Y"
-
 show_excerpts: true
 
 # Build settings
