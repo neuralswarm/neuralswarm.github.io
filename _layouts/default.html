@@ -38,13 +38,34 @@
       });
 
       /* Close offcanvas menu when clicking anchor links. */
-      const offcanvas_links = document.querySelectorAll('.offcanvas-body .nav-link');
-      Array.prototype.forEach.call(offcanvas_links, function(offcanvas_link) {
-        offcanvas_link.addEventListener('click', event => {
+      const offcanvasLinks = document.querySelectorAll('.offcanvas-body .nav-link');
+      Array.prototype.forEach.call(offcanvasLinks, function(offcanvasLink) {
+        offcanvasLink.addEventListener('click', event => {
           const offcanvas = document.getElementById('offcanvasNav');
           bootstrap.Offcanvas.getInstance(offcanvas).hide();
         });
       });
+
+      /* Normalise Carousel slide heights to prevent layout shift. */
+      function normaliseSlideHeights() {
+        const carouselItems = document.querySelectorAll('.carousel-item');
+        Array.prototype.forEach.call(carouselItems, function(carouselItem) {
+          carouselItem.style.minHeight = 0;
+        });
+
+        var maxHeight = 0
+        Array.prototype.forEach.call(carouselItems, function(carouselItem) {
+          maxHeight = Math.max(maxHeight, carouselItem.offsetHeight);
+        });
+
+        Array.prototype.forEach.call(carouselItems, function(carouselItem) {
+          carouselItem.style.minHeight = maxHeight + 'px';
+        });
+      }
+
+      window.addEventListener('load', normaliseSlideHeights);
+      window.addEventListener('resize', normaliseSlideHeights);
+      window.addEventListener('orientationchange', normaliseSlideHeights);
     </script>
 
   </body>
