@@ -423,13 +423,13 @@ layout: default
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-6 col-xl-4">
+      <div class="col-lg-6">
         <form class="row g-3" action="https://formspree.io/f/mbjwwdkd" method="POST">
           <div class="col-md-6">
-            <input type="text" class="form-control" name="fname" placeholder="First Name" required>
+            <input type="text" class="form-control" name="firstName" placeholder="First Name" required>
           </div>
           <div class="col-md-6">
-            <input type="text" class="form-control" name="lname" placeholder="Last Name" required>
+            <input type="text" class="form-control" name="lastName" placeholder="Last Name" required>
           </div>
           <div class="col-12">
             <input type="email" class="form-control" name="email" placeholder="Work Email Address" required>
@@ -439,6 +439,12 @@ layout: default
           </div>
           <div class="col-12">
             <textarea class="form-control" rows="5" name="message" placeholder="Message"></textarea>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" id="newsletter_optin" type="checkbox" name="_optin" value="" >
+              <label class="form-check-label" for="newsletter_optin">Subscribe to our monthly AI Insights newsletter</label>
+            </div>
           </div>
           <div class="col-12">
             <button type="submit" class="btn px-0">
