@@ -505,6 +505,21 @@ a:hover,
     }
 }
 
-.card {
-  min-height: 240px;
+#carousel {
+  @include media-breakpoint-down(md) {
+    .card-body {
+      padding-left: 16% !important;
+    }
+    
+    .svg-logo {
+      position: absolute;
+      top: 50%;
+      left: -15%;
+      margin-top: -15%;
+      width: 30%;
+      height: auto;
+      fill: tint-color($info, 25%);
+      stroke: tint-color($info, 25%);
+    }
+  }
 }
