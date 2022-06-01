@@ -3,7 +3,7 @@ layout: post
 category: Learn
 title: Auditing an AI System
 description: Supplementing existing software controls for AI system audit.
-image: assets/images/blog/audit.jpg
+image: assets/posts/auditing-an-ai-system/splash.jpg
 author: tlyleung
 ---
 
