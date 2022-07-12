@@ -51,9 +51,10 @@ p.lead {
   }
 }
 
-article .form-control,
-article .btn,
 article,
+article h2,
+article .btn,
+article .form-control,
 .article-header {
   font-size: 1.125rem;
 
@@ -116,7 +117,7 @@ article,
 main {
   & > header {
     position: relative;
-    padding: 12rem 0 3rem 0;
+    padding: 12rem 0 2rem 0;
 
     #splash {
       position: absolute;
@@ -154,7 +155,8 @@ main {
   stroke: $white;
 }
 
-#capabilities {
+#capabilities,
+#solutions {
   .col-logo {
     flex: 0 0 64px;
 
@@ -278,6 +280,13 @@ main {
  */
 
 article {
+  line-height: 1.6667;
+
+  h2 {
+    margin: 2rem 0 1rem 0;
+    font-weight: bold;
+  }
+
   a:link {
     text-decoration: underline;
   }
@@ -307,6 +316,10 @@ article {
     td {
       vertical-align: top;
       padding: 0 1rem;
+    }
+
+    .hr {
+      border-top: thin solid $secondary;
     }
 
     @include media-breakpoint-up(lg) {
@@ -344,25 +357,6 @@ article {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .process {
   display: flex;

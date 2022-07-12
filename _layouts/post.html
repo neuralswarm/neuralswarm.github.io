@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{%- assign author = site.data.authors[page.author] -%}
 {%- assign date_format = site.minima.date_format | default: "%-d %b %Y" -%}
 
 <header class="article-header">
@@ -11,7 +12,9 @@ layout: default
       <div class="col-12 col-lg-6">
         <p class="text-uppercase mb-0"><small>{{ page.category }}</small></p>
         <h1 class="display-5 my-3" itemprop="name headline">{{ page.title | escape }}</h1>
-        <p class="mb-0">{{ page.description }}</p>
+        <p>{{ page.description }}</p>
+        <p class="d-block d-lg-none"><a href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a></p>
+        <p class="d-block d-lg-none"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time></p>
       </div>
     </div>
   </div>
@@ -22,8 +25,9 @@ layout: default
       <div class="d-none d-lg-block col-lg-2">
         <aside>
           <hr>
+          <!-- <p><a href="https://www.linkedin.com/in/{{ author.linkedin }}/"> <img class="img-fluid filter" src="{{ author.picture }}" alt="{{ author.name }}"></a></p> -->
+          <p class="text-secondary"><a class="link-secondary" href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a></p>
           <p class="text-secondary"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time></p>
-          <p class="text-secondary">Timothy Leung</p>
           <p class="text-secondary">{%- include post_read_time.html page=page -%}</p>
           {%- include post_share.html page=page -%}
           <hr>

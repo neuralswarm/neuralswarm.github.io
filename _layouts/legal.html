@@ -8,7 +8,7 @@ layout: default
     <div class="row">
       <div class="col">
         <h1 class="display-5 my-3" itemprop="name headline">{{ page.title | escape }}</h1>
-        <p class="mb-0">Last updated on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time></p>
+        <p>Last updated on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time></p>
       </div>
     </div>
   </div>
