@@ -280,6 +280,7 @@ main {
  */
 
 article {
+  color: #cccccc;
   line-height: 1.6667;
 
   h2 {
@@ -499,21 +500,24 @@ a:hover,
     }
 }
 
-#carousel {
-  .badge {
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
-    font-size: 1rem;
-    font-weight: normal;
-    background-color: shade-color($info, 20%);
-  }
+.badge {
+  display: none;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+  background-color: shade-color($info, 20%);
 
   @include media-breakpoint-down(lg) {
-    .badge {
       top: 1rem;
       right: 1rem;
       font-size: 0.875rem;
-    }
   }
+}
+
+.nav-tabs .nav-link.active {
+  color: inherit;
+  border-bottom-color: $dark;
+  background-color: transparent;
 }
