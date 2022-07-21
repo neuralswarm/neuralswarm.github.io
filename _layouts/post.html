@@ -3,7 +3,7 @@ layout: default
 ---
 
 {%- assign author = site.data.authors[page.author] -%}
-{%- assign date_format = site.minima.date_format | default: "%-d %b %Y" -%}
+{%- assign date_format = "%B %Y" -%}
 
 <header class="article-header">
   <div id="splash" class="filter" style="background-image: url('{{ page.image | relative_url }}')"></div>
