@@ -23,20 +23,16 @@ layout: default
   <div class="container">
     <div class="row gx-0">
       <div class="d-none d-lg-block col-lg-2">
-        <aside class="sticky-top align-self-start">
-          <hr>
+        <aside class="mt-2 py-4 border-secondary border-top">
           <!-- <p><a href="https://www.linkedin.com/in/{{ author.linkedin }}/"> <img class="img-fluid filter" src="{{ author.picture }}" alt="{{ author.name }}"></a></p> -->
           <p class="text-secondary"><a class="link-secondary" href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a></p>
           <p class="text-secondary"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time></p>
           <p class="text-secondary">{%- include post_read_time.html page=page -%}</p>
-          {%- include post_share.html page=page -%}
-          <hr>
-          <nav id="toc" class="navbar p-0">
-            {% include toc.html html=content class='nav' item_class='nav-item' anchor_class='nav-link link-secondary' %}
-          </nav>
-          <hr>
+          {%- include post_share.html page=page -%}          
         </aside>
-        
+        <nav id="toc" class="navbar py-4 sticky-top align-self-start border-secondary border-top border-bottom">
+          {% include toc.html html=content class='nav' item_class='nav-item' anchor_class='nav-link link-secondary' %}
+        </nav>
       </div>
       <div class="d-none d-lg-block col-lg-1"></div>
       <div class="col-12 col-lg-6">

@@ -44,9 +44,13 @@ There are several ways to disseminate best practices in the software industry. I
 Here are a few examples of more recent best practices:
 
 - Model monitoring and continual learning
+
 - Generating fair, compact, robust and explainable models
+
 - Testing models in a robust and reproducible manner, instead of only relying on the loss function
+
 - Tracking data lineage
+
 - Using the same data pipeline for train/test and batch/streaming data
 
 ## Neural Swarm AI Audit Framework
@@ -189,7 +193,7 @@ Here is a brief description of the six categories:
 
 - **Software Engineering:** Certify that the system follows software engineering best practices around source code, documentation, version control and testing.
 
-## What does an AI Audit look like?
+## What Does An AI Audit Look Like?
 
 <!-- Methodology -->
 
