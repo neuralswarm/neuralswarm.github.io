@@ -302,11 +302,14 @@ article {
   }
 
   table {
-    border-top: thin solid $secondary;
-    border-bottom: thin solid $secondary;
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 2rem 0;
+    width: 100%;
+    border-top: thin solid $secondary;
+    border-bottom: thin solid $secondary;
+
+  td {  }
 
     caption {
       color: #999;
@@ -315,18 +318,16 @@ article {
 
     th,
     td {
-      vertical-align: top;
       padding: 0 1rem;
+      max-width: 0;
+      vertical-align: top;
+      overflow: hidden; 
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
     .hr {
       border-top: thin solid $secondary;
-    }
-
-    @include media-breakpoint-up(lg) {
-      margin-left: -16.667%;
-      margin-right: -50%;
-      width: 166.667%;
     }
   }
 
@@ -520,4 +521,22 @@ a:hover,
   color: inherit;
   border-bottom-color: $dark;
   background-color: transparent;
+}
+
+aside.sticky-top {
+  top: 120px;
+}
+
+#toc {
+  .nav-item + .nav-item {
+    margin-top: 1em;
+  }
+
+  .nav-link {
+    padding: 0;
+
+    &.active {
+      color: white !important;
+    }
+  }
 }

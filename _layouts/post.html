@@ -23,7 +23,7 @@ layout: default
   <div class="container">
     <div class="row gx-0">
       <div class="d-none d-lg-block col-lg-2">
-        <aside>
+        <aside class="sticky-top align-self-start">
           <hr>
           <!-- <p><a href="https://www.linkedin.com/in/{{ author.linkedin }}/"> <img class="img-fluid filter" src="{{ author.picture }}" alt="{{ author.name }}"></a></p> -->
           <p class="text-secondary"><a class="link-secondary" href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a></p>
@@ -31,7 +31,12 @@ layout: default
           <p class="text-secondary">{%- include post_read_time.html page=page -%}</p>
           {%- include post_share.html page=page -%}
           <hr>
+          <nav id="toc" class="navbar p-0">
+            {% include toc.html html=content class='nav' item_class='nav-item' anchor_class='nav-link link-secondary' %}
+          </nav>
+          <hr>
         </aside>
+        
       </div>
       <div class="d-none d-lg-block col-lg-1"></div>
       <div class="col-12 col-lg-6">

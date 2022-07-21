@@ -5,6 +5,7 @@ title: Auditing an AI System
 description: A new framework for auditing an AI System.
 image: assets/posts/auditing-an-ai-system/splash.jpg
 author: tlyleung
+toc: true
 ---
 
 <!-- Sell companies on benefits of an AI Audit -->
@@ -54,170 +55,119 @@ Here are a few examples of more recent best practices:
 
 Neural Swarm has created a new audit framework for AI Systems (see Table 1). It is intended to supplement the controls and processes in a software audit.
 
-<style>
-  table { width: 100%; }
-  table .description { display: none; }
-  table .shortcode { display: none; }
-  table .controls { text-align: right; }
-  td { max-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-</style>
 <table>
   <thead>
     <tr>
-      <th class="shortcode">Shortcode</th>
-      <th class="category" style="width: 30%">Category</th>
-      <th class="objective" style="width: 50%">Objective</th>
-      <th class="description">Description</th>
-      <th class="controls" style="width: 20%">Controls</th>
+      <th style="width: 50%">Objective</th>
+      <th style="width: 30%">Category</th>
+      <th style="width: 20%" class="text-end" >Controls</th>
     </tr>
   </thead>
   <tbody>
     <tr class="hr">
-      <th class="shortcode">AI-VAL-1</th>
-      <td class="category">Value</td>
-      <td class="objective">System Feasibility</td>
-      <td class="description">Ensure that the AI system is feasible</td>
-      <td class="controls">3</td>
+      <td>System Feasibility</td>
+      <td>Value</td>
+      <td class="text-end">3</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-VAL-2</th>
-      <td class="category">Value</td>
-      <td class="objective">System Requirements</td>
-      <td class="description">Determine constraints of the AI system</td>
-      <td class="controls">7</td>
+      <td>System Requirements</td>
+      <td>Value</td>
+      <td class="text-end">7</td>
     </tr>
     <tr class="hr">
-      <th class="shortcode">AI-DAT-1</th>
-      <td class="category">Data</td>
-      <td class="objective">Data Collection</td>
-      <td class="description">Ensure collected data is suitable for model development</td>
-      <td class="controls">7</td>
+      <td>Data Collection</td>
+      <td>Data</td>
+      <td class="text-end">7</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-DAT-2</th>
-      <td class="category">Data</td>
-      <td class="objective">Data Preparation</td>
-      <td class="description">Prepare collected data for preprocessing</td>
-      <td class="controls">5</td>
+      <td>Data Preparation</td>
+      <td>Data</td>
+      <td class="text-end">5</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-DAT-3</th>
-      <td class="category">Data</td>
-      <td class="objective">Data Splitting</td>
-      <td class="description">Ensure data is split correctly</td>
-      <td class="controls">3</td>
+      <td>Data Splitting</td>
+      <td>Data</td>
+      <td class="text-end">3</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-DAT-4</th>
-      <td class="category">Data</td>
-      <td class="objective">Data Preprocessing</td>
-      <td class="description">Enforce data preprocessing best practices</td>
-      <td class="controls">6</td>
+      <td>Data Preprocessing</td>
+      <td>Data</td>
+      <td class="text-end">6</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-DAT-5</th>
-      <td class="category">Data</td>
-      <td class="objective">Data Pipeline Testing</td>
-      <td class="description">Ensure that data pipeline conforms to its design</td>
-      <td class="controls">2</td>
+      <td>Data Pipeline Testing</td>
+      <td>Data</td>
+      <td class="text-end">2</td>
     </tr>
     <tr class="hr">
-      <th class="shortcode">AI-MOD-1</th>
-      <td class="category">Model</td>
-      <td class="objective">Model Development</td>
-      <td class="description">Use suitable features and models</td>
-      <td class="controls">3</td>
+      <td>Model Development</td>
+      <td>Model</td>
+      <td class="text-end">3</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-MOD-2</th>
-      <td class="category">Model</td>
-      <td class="objective">Model Training</td>
-      <td class="description">Increase training speed and stability</td>
-      <td class="controls">4</td>
+      <td>Model Training</td>
+      <td>Model</td>
+      <td class="text-end">4</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-MOD-3</th>
-      <td class="category">Model</td>
-      <td class="objective">Model Evaluation</td>
-      <td class="description">Evaluate model performance</td>
-      <td class="controls">5</td>
+      <td>Model Evaluation</td>
+      <td>Model</td>
+      <td class="text-end">5</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-MOD-4</th>
-      <td class="category">Model</td>
-      <td class="objective">Model Testing</td>
-      <td class="description">Ensure that model conforms to its design</td>
-      <td class="controls">5</td>
+      <td>Model Testing</td>
+      <td>Model</td>
+      <td class="text-end">5</td>
     </tr>
     <tr class="hr">
-      <th class="shortcode">AI-DEP-1</th>
-      <td class="category">Deployment</td>
-      <td class="objective">Operations</td>
-      <td class="description">Enforce MLOps best practices</td>
-      <td class="controls">6</td>
+      <td>Operations</td>
+      <td>Deployment</td>
+      <td class="text-end">6</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-DEP-2</th>
-      <td class="category">Deployment</td>
-      <td class="objective">Monitoring and Continual Learning</td>
-      <td class="description">Monitor and correct models for skews, shifts and drifts </td>
-      <td class="controls">6</td>
+      <td>Monitoring and Continual Learning</td>
+      <td>Deployment</td>
+      <td class="text-end">6</td>
     </tr>
     <tr class="hr">
-      <th class="shortcode">AI-RES-1</th>
-      <td class="category">Responsible AI</td>
-      <td class="objective">Model Fairness</td>
-      <td class="description">Produce fair models</td>
-      <td class="controls">2</td>
+      <td>Model Fairness</td>
+      <td>Responsible AI</td>
+      <td class="text-end">2</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-RES-2</th>
-      <td class="category">Responsible AI</td>
-      <td class="objective">Model Explainability</td>
-      <td class="description">Produce explainable models</td>
-      <td class="controls">4</td>
+      <td>Model Explainability</td>
+      <td>Responsible AI</td>
+      <td class="text-end">4</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-RES-3</th>
-      <td class="category">Responsible AI</td>
-      <td class="objective">Model Compactness</td>
-      <td class="description">Produce compact model</td>
-      <td class="controls">1</td>
+      <td>Model Compactness</td>
+      <td>Responsible AI</td>
+      <td class="text-end">1</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-RES-4</th>
-      <td class="category">Responsible AI</td>
-      <td class="objective">Model Robustness</td>
-      <td class="description">Produce robust models</td>
-      <td class="controls">1</td>
+      <td>Model Robustness</td>
+      <td>Responsible AI</td>
+      <td class="text-end">1</td>
     </tr>
     <tr class="hr">
-      <th class="shortcode">AI-ENG-1</th>
-      <td class="category">Software Engineering</td>
-      <td class="objective">Source Code</td>
-      <td class="description">Produce good quality source code</td>
-      <td class="controls">6</td>
+      <td>Source Code</td>
+      <td>Software Engineering</td>
+      <td class="text-end">6</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-ENG-2</th>
-      <td class="category">Software Engineering</td>
-      <td class="objective">Documentation</td>
-      <td class="description">Facilitate knowledge sharing and transfer</td>
-      <td class="controls">2</td>
+      <td>Documentation</td>
+      <td>Software Engineering</td>
+      <td class="text-end">2</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-ENG-3</th>
-      <td class="category">Software Engineering</td>
-      <td class="objective">Version Control</td>
-      <td class="description">Ensure that modifications are tracked and reproducible</td>
-      <td class="controls">5</td>
+      <td>Version Control</td>
+      <td>Software Engineering</td>
+      <td class="text-end">5</td>
     </tr>
     <tr>
-      <th class="shortcode">AI-ENG-4</th>
-      <td class="category">Software Engineering</td>
-      <td class="objective">Testing</td>
-      <td class="description">Ensure that software conforms to its design</td>
-      <td class="controls">2</td>
+      <td>Testing</td>
+      <td>Software Engineering</td>
+      <td class="text-end">2</td>
     </tr>
   </tbody>
   <caption>Table 1: Neural Swarm AI Audit Framework</caption>
