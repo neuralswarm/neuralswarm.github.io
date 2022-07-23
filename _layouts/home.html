@@ -142,148 +142,343 @@ layout: default
     <div class="row mb-4">
       <div class="col">
         <h2 class="mb-4">Solutions</h2>
-        <p class="lead">For clients with a project in mind, here are examples of Artificial Intelligence solutions that Neural Swarm can build.</p>
+        <p class="lead">For clients that are exploring Artificial Intelligence, here are examples of solutions that Neural Swarm can build, grouped by data type.</p>
       </div>
     </div>
-    <div class="row row-cols-1 row-cols-md-2 g-2">
-      <div class="col">
-        <div class="row">
-          <div class="col-logo">
-            <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
-              <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
-            </svg>
-          </div>
-          <div class="col ps-0">          
-            <span>Chatbots and Virtual Agents</span>
-            <p class="text-secondary">
-              Text and voice conversations using an automated dialogue system.
-              <br />
-              E.g. minimise live agent interventions by automating inbound store switchboards.
-            </p>
+    <div>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="structured-data-tab" data-bs-toggle="tab" data-bs-target="#structured-data-tab-pane" type="button" role="tab" aria-controls="structured-data-tab-pane" aria-selected="true">Structured Data</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="text-data-tab" data-bs-toggle="tab" data-bs-target="#text-data-tab-pane" type="button" role="tab" aria-controls="text-data-tab-pane" aria-selected="false">Text Data</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="visual-data-tab" data-bs-toggle="tab" data-bs-target="#visual-data-tab-pane" type="button" role="tab" aria-controls="visual-data-tab-pane" aria-selected="false">Images / Video</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="structured-data-tab-pane" role="tabpanel" aria-labelledby="structured-data-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-md-2 g-2 mt-4">
+            
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Business Metrics Forecasting</span>
+                  <p class="text-secondary">
+                    Forecast sales and predict demand using historical time series data.
+                    <br />
+                    E.g. predict next month’s grocery store sales in order to optimize inventory levels.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Customer Segmentation</span>
+                  <p class="text-secondary">
+                    Segment customers into groups by distinct characteristics.
+                    <br />
+                    E.g. optimise marketing efforts by assigning targeted campaigns to different customer segments.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Fraud Detection</span>
+                  <p class="text-secondary">
+                    Detect fake accounts and fraudulent transactions.
+                    <br />
+                    E.g. add additional checks for new account registrations that are deemed to be high-risk.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Logistics Optimisation</span>
+                  <p class="text-secondary">
+                    Solve logistics problems such as vehicle routing, scheduling and bin packing.
+                    <br />
+                    E.g. find optimal placement of facilities to minimise transportation costs, while avoiding competitor locations.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Predictive Maintenance</span>
+                  <p class="text-secondary">
+                    Detect abnormal conditions in industrial equipment using sensor data.
+                    <br />
+                    E.g. reduce unplanned equipment downtime by intelligently scheduling maintenance.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Product Discovery</span>
+                  <p class="text-secondary">
+                    Personalised product recommendations and product rankings. 
+                    <br />
+                    E.g. increase sales by recommending targeted products that the customer has never purchased before.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="row">
-          <div class="col-logo">
-            <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
-              <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
-            </svg>
-          </div>
-          <div class="col ps-0">          
-            <span>Document Processing</span>
-            <p class="text-secondary">
-              Automate document capture and analysis at scale.
-              <br />
-              E.g. accelerate mortgage applications by automatically processing income and asset documents.
-            </p>
+        <div class="tab-pane fade" id="text-data-tab-pane" role="tabpanel" aria-labelledby="text-data-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-md-2 g-2 mt-4">
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Chatbots and Virtual Agents</span>
+                  <p class="text-secondary">
+                    Text and voice conversations using an automated dialogue system.
+                    <br />
+                    E.g. minimise live agent interventions by automating inbound store switchboards.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Copywriting</span>
+                  <p class="text-secondary">
+                    Generate product descriptions, blog articles and marketing copy.
+                    <br />
+                    E.g. populate an e-commerce platform with fresh descriptions for every product.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Document Processing</span>
+                  <p class="text-secondary">
+                    Automate document capture and analysis at scale.
+                    <br />
+                    E.g. accelerate mortgage applications by automatically processing income and asset documents.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Sentiment Analysis</span>
+                  <p class="text-secondary">
+                    Determine whether a view on a subject is positive, negative or neutral.
+                    <br />
+                    E.g. monitor customer brand perception on multiple social media platforms.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Summarisation</span>
+                  <p class="text-secondary">
+                    Reduce long text passages into single-line summaries.
+                    <br />
+                    E.g. populate HTML meta description tags with a summary of the page’s content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Translation</span>
+                  <p class="text-secondary">
+                    Real-time text and audio translation between languages.
+                    <br />
+                    E.g. offer instant translations of user-generated content to reach a global audience.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="row">
-          <div class="col-logo">
-            <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
-              <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
-            </svg>
-          </div>
-          <div class="col ps-0">          
-            <span>Forecast Business Metrics</span>
-            <p class="text-secondary">
-              Forecast sales and predict demand using historical data.
-              <br />
-              E.g. predict next month’s grocery store sales in order to optimize inventory levels.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="row">
-          <div class="col-logo">
-            <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
-              <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
-            </svg>
-          </div>
-          <div class="col ps-0">          
-            <span>Fraud Detection</span>
-            <p class="text-secondary">
-              Detect fake accounts and fraudulent transactions.
-              <br />
-              E.g. add additional checks for new account registrations that are deemed to be high-risk.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="row">
-          <div class="col-logo">
-            <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
-              <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
-            </svg>
-          </div>
-          <div class="col ps-0">          
-            <span>Manufacturing Inspection</span>
-            <p class="text-secondary">
-              Identify defects such as misplaced components or cosmetic damage.
-              <br />
-              E.g. improve quality control by detecting damaged components on a production line.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="row">
-          <div class="col-logo">
-            <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
-              <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
-            </svg>
-          </div>
-          <div class="col ps-0">          
-            <span>Predictive Maintenance</span>
-            <p class="text-secondary">
-              Detect abnormal conditions in industrial equipment using sensor data.
-              <br />
-              E.g. reduce unplanned equipment downtime by intelligently scheduling maintenance.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="row">
-          <div class="col-logo">
-            <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
-              <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
-            </svg>
-          </div>
-          <div class="col ps-0">          
-            <span>Product Discovery</span>
-            <p class="text-secondary">
-              Personalised product recommendations and product rankings. 
-              <br />
-              E.g. increase sales by recommending targeted products that the customer has never purchased before.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="row">
-          <div class="col-logo">
-            <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
-              <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
-            </svg>
-          </div>
-          <div class="col ps-0">          
-            <span>Translation</span>
-            <p class="text-secondary">
-              Real-time audio and text translation between languages.
-              <br />
-              E.g. offer instant translations of user-generated content to reach a global audience.
-            </p>
+        <div class="tab-pane fade" id="visual-data-tab-pane" role="tabpanel" aria-labelledby="visual-data-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-md-2 g-2 mt-4">
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Content Moderation</span>
+                  <p class="text-secondary">
+                    Detect inappropriate content within images and videos.
+                    <br />
+                    E.g. prevent toxicity in online communities by pro-actively moderating user-generated content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Contextual Advertising</span>
+                  <p class="text-secondary">
+                    Insert relevant ads at appropriate locations in videos.
+                    <br />
+                    E.g. monetise video content through advertising without adversely affecting user experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Face Recognition and Detection</span>
+                  <p class="text-secondary">
+                    Verify identify or control access through facial recognition and detection.
+                    <br />
+                    E.g. determine if someone is wearing a face mask and whether it covers the nose and the mouth.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Media Library Management</span>
+                  <p class="text-secondary">
+                    Automatically generate metadata for images and videos.
+                    <br />
+                    E.g. search a media library by audio track contents, as well as on-screen objects and text.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Quality Control</span>
+                  <p class="text-secondary">
+                    Identify defects such as misplaced components or cosmetic damage.
+                    <br />
+                    E.g. improve quality control by detecting damaged components on a production line.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-logo">
+                  <svg class="svg-logo" width="64px" height="64px" viewBox="0 0 24 24">
+                    <use xlink:href="{{ "assets/images/icons.svg#logo" | relative_url }}"></use>
+                  </svg>
+                </div>
+                <div class="col ps-0">
+                  <span>Visual Search</span>
+                  <p class="text-secondary">
+                    Match user-provided images with images from a product catalog.
+                    <br />
+                    E.g. improve user experience by allowing users to search a product catalogue with a photo.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 </section>
 <section id="work">
   <div class="container">
