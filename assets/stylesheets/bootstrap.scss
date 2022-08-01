@@ -29,6 +29,7 @@ $input-btn-focus-width: 0;
 
 @import "bootstrap/bootstrap-utilities";
 @import "bootstrap/bootstrap";
+@import "tomorrow-night.css";
 
 /*
  *  Responsive Font Sizes (RFS)
@@ -309,8 +310,6 @@ article {
     border-top: thin solid $secondary;
     border-bottom: thin solid $secondary;
 
-  td {  }
-
     caption {
       color: #999;
       font-size: 1rem;
@@ -539,4 +538,8 @@ a:hover,
       color: white !important;
     }
   }
+}
+
+code {
+  color: inherit;
 }
