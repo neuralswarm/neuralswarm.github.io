@@ -64,6 +64,10 @@ article .form-control,
   }
 }
 
+.article-body {
+  background-color: #202124 !important;
+}
+
 .calendly-link {
   font-size: 1rem;
 
@@ -281,7 +285,7 @@ main {
  */
 
 article {
-  color: #cccccc;
+  color: #bdc1c6;
   line-height: 1.6667;
 
   h2 {
@@ -289,9 +293,10 @@ article {
     font-weight: bold;
   }
 
-  a:link {
-    text-decoration: underline;
-  }
+  a:link    { color: #8ab4f8; text-decoration: none; }
+  a:visited { color: #8ab4f8; text-decoration: none; }
+  a:hover   { color: #8ab4f8; text-decoration: underline; }
+  a:active  { color: #8ab4f8; text-decoration: underline; }
 
   blockquote {
     font-size: 2rem;
