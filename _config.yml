@@ -32,7 +32,7 @@ locale: en_HK
 twitter:
   username: neuralswarm
   card: summary_large_image
-timezone: Asia/Hong_Kong
+timezone: UTC
 minima:
   date_format: "%b %Y"
 show_excerpts: true
