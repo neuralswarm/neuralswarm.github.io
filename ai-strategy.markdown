@@ -11,8 +11,7 @@ permalink: /strategy/
     <div class="row gx-5">
       <div class="col-lg-8">
         <p>The fast-paced nature of the AI landscape demands the development and execution of bold strategies. With AI’s potential to transform every business over the next decade, work with Neural Swarm to determine what this means for your business.</p>
-        <p>We help clients map out current and upcoming industry-specific use cases and lay the groundwork for a robust data collection and adoption strategy. We can determine whether to build out in-house capability or whether the skills gap necessitates strategic partnerships with AI companies.</p>
-        <p>AI models are a function of data and code. Data quality, which originates from a company’s data collection strategy, is a determining factor in model quality. Neural Swarm works with clients to navigate the trade-offs found in data collection: whether the right data is collected and in sufficient quantities, whether to collect additional data or use existing datasets, and whether to censor sensitive and protected features.</p>
+        <p>Transforming a company into a thriving AI-centric organisation is a process that requires strong cross-functional collaboration. We work with client teams to assess industry-specific AI use cases as well as building industry-leading use cases from scratch.</p>
       </div>
       <aside class="col-lg-4 d-none d-lg-block">
         <blockquote class="blockquote py-4 fst-italic text-secondary border-top border-bottom border-secondary">
