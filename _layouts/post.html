@@ -12,7 +12,7 @@ layout: default
       <div class="col-12 col-lg-6">
         <p class="text-uppercase mb-0"><small>{{ page.category }}</small></p>
         <h1 class="display-5 my-3" itemprop="name headline">{{ page.title | escape }}</h1>
-        <p>{{ page.description }}</p>
+        <p class="lead">{{ page.description }}</p>
         <p class="d-block d-lg-none"><a href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a></p>
         <p class="d-block d-lg-none"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time></p>
       </div>

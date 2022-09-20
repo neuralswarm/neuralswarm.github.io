@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<header class="article-header">
+  <div id="splash" class="filter" style="background-image: url('{{ page.image | relative_url }}'); background-position: bottom center;"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="display-5 my-3" itemprop="name headline">{{ page.title | escape }}</h1>
+        <p class="lead">{{ page.subtitle | escape }}</p>
+      </div>
+    </div>
+  </div>
+</header>
+{{ content }}
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="mb-4">Get in Touch</h2>
+        <p>Thank you for your interest in Neural Swarm. Please fill out the form below to enquire about our work, and we’ll respond as soon as possible.</p>
+        <form class="row g-3 mt-4" action="https://formspree.io/f/mbjwwdkd" method="POST">
+          <div class="col-md-6">
+            <input type="text" class="form-control" name="firstName" placeholder="First Name" required>
+          </div>
+          <div class="col-md-6">
+            <input type="text" class="form-control" name="lastName" placeholder="Last Name" required>
+          </div>
+          <div class="col-12">
+            <input type="email" class="form-control" name="email" placeholder="Business Email Address" required>
+          </div>
+          <div class="col-12">
+            <textarea class="form-control" rows="5" name="message" placeholder="Message"></textarea>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" id="newsletter_optin" type="checkbox" name="_optin" value="" >
+              <label class="form-check-label" for="newsletter_optin">Subscribe to our monthly AI Insights newsletter</label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn px-0">
+              <span>Send Message &nbsp;</span>
+              <svg class="svg-arrow" width="16px" height="16px" viewBox="0 0 28 24">
+                <use xlink:href="{{ "assets/images/icons.svg#arrow" | relative_url }}"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <hr>
+        <p>Alternatively, schedule a free 30-minute introductory Zoom meeting.</p>
+        <p>
+          <!-- Calendly link widget begin -->
+          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+          <a class="calendly-link" href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/neuralswarm/introductory-meeting?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;">
+            <span>Schedule Meeting &nbsp;</span> 
+            <svg class="svg-arrow" width="16px" height="16px" viewBox="0 0 28 24">
+              <use xlink:href="{{ "assets/images/icons.svg#arrow" | relative_url }}"></use>
+            </svg>
+          </a>
+          <!-- Calendly link widget end -->
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="newsletter" class="d-lg-none">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        {%- include newsletter.html message="Stay current with our monthly AI Insights newsletter." -%}
+      </div>
+    </div>
+  </div>
+</section>
