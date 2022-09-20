@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Learn
+tag: Learn
 title: Startup Engineering 101
 description: Software engineering best practices for fast-moving startups.
 image: assets/posts/startup-engineering-101/splash.jpg
