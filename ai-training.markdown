@@ -11,14 +11,14 @@ permalink: /training/
     <div class="row gx-5">
       <div class="col-lg-8">
         <p>AI is making progress on problems previously thought to be solvable by humans — tasks such as playing Go, writing prose and illustrating artworks. This transformational technology is now making significant inroads in commercial applications and can open up a world of opportunity for your business.</p>
-        <h2 class="fs-4 py-3">Course Description</h2>
+        <h2 class="fs-5 fw-bold py-3">Course Description</h2>
         <p>The <em>AI for Executives</em> course provides a condensed exploration of the key concepts and techniques behind AI and Machine Learning — and how they fit into your organisation.</p>
         <p>During this 2-hour course, you’ll explore the capabilities and limitations of these exciting new tools. You’ll also participate in a hands-on brainstorming session designed to identify the most valuable AI projects within your company. At the end of course, you’ll be equipped with the knowledge, language and framework to talk to both experts and executives about AI.</p>
         <p>If you’re an executive or business leader, this course will help you lead innovative projects more effectively within your business — and to use AI in a powerful and responsible way.</p>
-        <h2 class="fs-4 py-3">Who Should Attend</h2>
+        <h2 class="fs-5 fw-bold py-3">Who Should Attend</h2>
         <p>This course is aimed at senior executives that are responsible, or who may later become responsible, for the sponsorship and oversight of AI projects within a company.</p>
         <p>The course is designed for 4–8 participants. It can be conducted in-person or remotely and has a high level of interactivity and personalisation.</p>
-        <h2 class="fs-4 py-3">Instructors</h2>
+        <h2 class="fs-5 fw-bold py-3">Instructors</h2>
         <p>At <em>Neural Swarm</em>, you receive expert tuition from experienced practitioners. Our <em>AI for Executives</em> course is developed by experienced Machine Learning practitioners, who hold doctorate-level degrees in Computer Science.</p>
         <div class="row pt-3">
           <div class="col-3">
@@ -30,9 +30,9 @@ permalink: /training/
             <p class="small">Previously, Timothy incubated a company through <em>Entrepreneur First</em>, a startup scheme for UK’s brightest graduates. Timothy holds a Computer Science PhD from <em>Imperial College London</em> and a BSc (Hons.) Computer Science degree from <em>University College London</em>.</p>
           </div>
         </div>
-        <h2 class="fs-4 py-3">Prerequisites</h2>
+        <h2 class="fs-5 fw-bold py-3">Prerequisites</h2>
         <p>No technical knowledge is required for this course.</p>
-        <h2 class="fs-4 py-3">Cost</h2>
+        <h2 class="fs-5 fw-bold py-3">Cost</h2>
         <p>Our pricing is consistent with industry benchmarks for in-person corporate training. Pricing depends on the level of customisation required and the number of participants attending the course.</p>
       </div>
       <aside class="col-lg-4 d-none d-lg-block">

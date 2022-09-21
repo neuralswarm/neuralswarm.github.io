@@ -11,7 +11,7 @@ permalink: /development/
       <div class="col-lg-8">
         <p>AI helps companies make better decisions, automate business processes and enhance existing products. Combine Neural Swarm’s Machine Learning expertise with your company’s domain knowledge to build an AI solution that unlocks business value.</p>
         <p>We help clients find areas in their business that can harness the full power of Artificial Intelligence. We’ll work together from idea to deployment while navigating the risks and challenges unique to Artificial Intelligence. While developing and implementing high-performing Machine Learning models, we strongly emphasise producing fair, compact, explainable and robust models. We employ up-to-date MLOps best practices to build reliable and scalable solutions.</p>
-        <h2 class="fs-4 py-3">What to Expect</h2>
+        <h2 class="fs-5 fw-bold py-3">What to Expect</h2>
         <p>Our work is project-based, meaning there is no vendor lock-in or recurring cost. At the end of the project, you’ll own the code, allowing you to see how it works and modify it as you see fit.</p>
         <p>Sprints are two weeks in duration. Our flat hierarchy and small team size allow us to build solutions quickly and cost-effectively. We usually leverage our partnerships with <em>AWS</em> and <em>Google Cloud</em> to bootstrap baseline models using pre-trained models and AutoML. Then, we’ll make marked improvements to the system to meet target model accuracy and other requirements, including building and training a custom model if necessary.</p>
       </div>

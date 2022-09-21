@@ -12,7 +12,7 @@ permalink: /audit/
       <div class="col-lg-8">
         <p>AI Audits are used to identify and mitigate risks in AI systems. These risks can occur internally within a company that uses AI or externally, in the case of an acquirer performing due diligence on an AI-driven target. AI systems carry specific risks unaddressed by a software audit because they are a function of not only code, but also data and the parameters used to combine them.</p>
         <p>An overlooked benefit of an AI audit is to propagate industry-accepted best practices. The rapid evolution of Machine Learning means that AI systems can look very different from one company to the next.</p>
-        <h2 class="fs-4 py-3">What to Expect</h2>
+        <h2 class="fs-5 fw-bold py-3">What to Expect</h2>
         <p>In a Machine Learning audit, the evidence comes from interviewing key stakeholders and reading documentation, such as design documents. Additionally, auditors can review source code and run specific tests to evaluate model fairness and robustness if required.</p>
         <p>The audit result is usually written up in a 15–20 page report. While the report will include observations and rank conformity of controls, the actionable part is the Recommendations section. Neural Swarm will make recommendations for each objective with major or minor non-conformities. Depending on the complexity and number of models, the process can take around two weeks.</p>
       </div>
