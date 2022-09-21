@@ -36,6 +36,8 @@ timezone: UTC
 minima:
   date_format: "%b %Y"
 show_excerpts: true
+disqus:
+  shortname: neuralswarm
 
 # Build settings
 theme: minima

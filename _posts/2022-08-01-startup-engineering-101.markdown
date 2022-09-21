@@ -5,6 +5,7 @@ title: Startup Engineering 101
 description: Software engineering best practices for fast-moving startups.
 image: assets/posts/startup-engineering-101/splash.jpg
 author: tlyleung
+comments: false
 ---
 
 “Move fast and break things” is a mantra popularised by Facebook during its growth phase. If you aren’t moving so fast that things are breaking, you’re not moving fast enough. This viewpoint is shared by many startups iterating quickly in search of product-market fit. But is there such a thing as too fast?
