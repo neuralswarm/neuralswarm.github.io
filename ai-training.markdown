@@ -10,11 +10,17 @@ permalink: /training/
   <div class="container">
     <div class="row gx-5">
       <div class="col-lg-8">
+        <p>AI is making progress on problems previously thought to be solvable by humans — tasks such as playing Go, writing prose and illustrating artworks. This transformational technology is now making significant inroads in commercial applications and can open up a world of opportunity for your business.</p>
+        <h2 class="fs-4 py-3">Course Description</h2>
+        <p>The <em>AI for Executives</em> course provides a condensed exploration of the key concepts and techniques behind AI and Machine Learning — and how they fit into your organisation.</p>
+        <p>During this 2-hour course, you’ll explore the capabilities and limitations of these exciting new tools. You’ll also participate in a hands-on brainstorming session designed to identify the most valuable AI projects within your company. At the end of course, you’ll be equipped with the knowledge, language and framework to talk to both experts and executives about AI.</p>
+        <p>If you’re an executive or business leader, this course will help you lead innovative projects more effectively within your business — and to use AI in a powerful and responsible way.</p>
         <h2 class="fs-4 py-3">Who Should Attend</h2>
         <p>This course is aimed at senior executives that are responsible, or who may later become responsible, for the sponsorship and oversight of AI projects within a company.</p>
         <p>The course is designed for 4–8 participants. It can be conducted in-person or remotely and has a high level of interactivity and personalisation.</p>
         <h2 class="fs-4 py-3">Instructors</h2>
-        <div class="row">
+        <p>At <em>Neural Swarm</em>, you receive expert tuition from experienced practitioners. Our <em>AI for Executives</em> course is developed by experienced Machine Learning practitioners, who hold doctorate-level degrees in Computer Science.</p>
+        <div class="row pt-3">
           <div class="col-3">
             <p><img class="img-fluid filter" src="{{ "assets/images/headshot.jpg" | relative_url }}" alt="Timothy Leung"/></p>
           </div>
@@ -42,7 +48,7 @@ permalink: /training/
     <div class="row mb-4">
       <div class="col">
         <h2 class="mb-4">Learning Objectives</h2>
-        <p class="lead">Gain an understanding of these key concepts by taking the <em>AI for Executives</em> course.</p>
+        <p class="lead">Achieve these key learning objectives by taking the <em>AI for Executives</em> course.</p>
       </div>
     </div>
     <div class="row row-cols-1 row-cols-md-2 g-2">
@@ -54,8 +60,8 @@ permalink: /training/
             </svg>
           </div>
           <div class="col ps-0">
-            <span>Gain an overview of how AI works and its capabilities and limitations</span>
-            <p class="text-secondary"></p>
+            <span>Understand the key concepts behind AI and Machine Learning</span>
+            <p class="text-secondary">We’ll discuss the capabilities and limitations of AI and equip you with the knowledge and language to talk about it.</p>
           </div>
         </div>
       </div>
@@ -67,8 +73,8 @@ permalink: /training/
             </svg>
           </div>
           <div class="col ps-0">
-            <span>Acquire an in-depth understanding of AI transformation within an organisation</span>
-            <p class="text-secondary"></p>
+            <span>Learn how to start the AI transformation process within your company</span>
+            <p class="text-secondary">We’ll cover the tools and steps needed to start becoming an AI-centric organisation.</p>
           </div>
         </div>
       </div>
@@ -80,8 +86,8 @@ permalink: /training/
             </svg>
           </div>
           <div class="col ps-0">
-            <span>Discover AI use cases specific to your industry</span>
-            <p class="text-secondary"></p>
+            <span>Explore AI use cases specific to your industry</span>
+            <p class="text-secondary">Learn how Machine Learning can drive change and increase efficiency across organisations in your sector.</p>
           </div>
         </div>
       </div>
@@ -93,8 +99,8 @@ permalink: /training/
             </svg>
           </div>
           <div class="col ps-0">
-            <span>Understanding how to prioritise AI projects</span>
-            <p class="text-secondary"></p>
+            <span>Identify the most valuable AI projects within your company</span>
+            <p class="text-secondary">We’ll run a hands-on brainstorming session to help you compile a list of promising AI projects.</p>
           </div>
         </div>
       </div>
