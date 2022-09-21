@@ -10,7 +10,7 @@ permalink: /training/
   <div class="container">
     <div class="row gx-5">
       <div class="col-lg-8">
-        <p>AI is making progress on problems previously thought to be solvable by humans — tasks such as playing Go, writing prose and illustrating artworks. This transformational technology is now making significant inroads in commercial applications and can open up a world of opportunity for your business.</p>
+        <p>Artificial Intelligence is making progress on problems previously thought to be solvable by humans — tasks such as playing Go, writing prose and illustrating artworks. This transformational technology is now making significant inroads in commercial applications and can open up a world of opportunity for your business.</p>
         <h2 class="fs-5 fw-bold py-3">Course Description</h2>
         <p>The <em>AI for Executives</em> course provides a condensed exploration of the key concepts and techniques behind AI and Machine Learning — and how they fit into your organisation.</p>
         <p>During this 2-hour course, you’ll explore the capabilities and limitations of these exciting new tools. You’ll also participate in a hands-on brainstorming session designed to identify the most valuable AI projects within your company. At the end of course, you’ll be equipped with the knowledge, language and framework to talk to both experts and executives about AI.</p>
