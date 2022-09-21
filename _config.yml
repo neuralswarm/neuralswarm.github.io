@@ -19,11 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Neural Swarm
-tagline: A boutique Artificial Intelligence consultancy
+tagline: Asia’s leading Artificial Intelligence consultancy
 email: timothy.leung@neuralswarm.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Neural Swarm is a boutique Artificial Intelligence consulting firm that
-  provides a wide range of services to a diversified client base.
+  Neural Swarm is Asia’s leading Artificial Intelligence consultancy that provides
+  development, strategy and audit services to a diversified client base.
 baseurl: # the subpath of your site, e.g. /blog
 url: "https://neuralswarm.com" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-65030340-1
