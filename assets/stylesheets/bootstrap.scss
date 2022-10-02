@@ -7,7 +7,7 @@ $dark:       #1c2023;
 $info:       #334043;
 $white:      #ffffff;
 
-$body-bg:    #131313;
+$body-bg:    #0d1117;
 $body-color: $white;
 
 $link-color: $white;
@@ -60,18 +60,14 @@ p.lead {
   }
 }
 
-article,
-article h2,
-article .btn,
-article .form-control,
-.article-header {
+article {
   @include media-breakpoint-up(lg) {
     font-size: 1.125rem;
   }
 }
 
 .article-body {
-  background-color: #202124 !important;
+  background-color: #0d1117 !important;
 }
 
 .calendly-link {
@@ -304,18 +300,24 @@ main {
  */
 
 article {
-  color: #bdc1c6;
+  color: #c9d1d9;
   line-height: 1.6667;
 
   h2 {
     margin: 2rem 0 1rem 0;
+    font-size: 1.125rem;
     font-weight: bold;
+
+    @include media-breakpoint-up(lg) {
+      margin: 2.5rem 0 1rem 0;
+      font-size: 1.3125rem;
+    }
   }
 
-  a:link    { color: #8ab4f8; text-decoration: none; }
-  a:visited { color: #8ab4f8; text-decoration: none; }
-  a:hover   { color: #8ab4f8; text-decoration: underline; }
-  a:active  { color: #8ab4f8; text-decoration: underline; }
+  a:link    { color: #58a6ff; text-decoration: none; }
+  a:visited { color: #58a6ff; text-decoration: none; }
+  a:hover   { color: #58a6ff; text-decoration: underline; }
+  a:active  { color: #58a6ff; text-decoration: underline; }
 
   blockquote {
     font-size: 2rem;
