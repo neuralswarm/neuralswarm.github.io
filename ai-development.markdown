@@ -39,8 +39,8 @@ permalink: /development/
             <div class="arrow-down"></div>
             <h2>Identify Value</h2>
             <ul>
-              <li>Identify sources of value from the discovery workshop.</li>
-              <li>Gather requirements using proprietary AI Canvas.</li>
+              <li>Brainstorm AI use cases in the <em>AI for Executives</em> course.</li>
+              <li>Prioritise and determine suitability of AI use cases.</li>
               <li>Create an AI project plan with project scope and objectives.</li>
             </ul>
           </li>
@@ -69,9 +69,9 @@ permalink: /development/
             <div class="arrow-down"></div>
             <h2>Deploy Solution</h2>
             <ul>
+              <li>Make launch decision based on the system’s ability to meet key objectives.</li>
               <li>Deploy model and integrate with the existing system.</li>
               <li>Set up model monitoring and maintenance workflows.</li>
-              <li>Optimise and improve the model with real-world feedback.</li>
             </ul>
           </li>
         </ol>
