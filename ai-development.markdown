@@ -39,9 +39,9 @@ permalink: /development/
             <div class="arrow-down"></div>
             <h2>Identify Value</h2>
             <ul>
-              <li>Brainstorm AI use cases in the <em>AI for Executives</em> course.</li>
-              <li>Prioritise and determine suitability of AI use cases.</li>
-              <li>Create an AI project plan with project scope and objectives.</li>
+              <li class="ai-for-executives">Brainstorm AI use cases in the <em>AI for Executives</em> course.</li>
+              <li class="ai-for-executives">Prioritise and determine suitability of AI use cases.</li>
+              <li class="feasibility-study">Create an AI project plan with project scope and objectives.</li>
             </ul>
           </li>
           <li class="subprocess">
@@ -49,9 +49,9 @@ permalink: /development/
             <div class="arrow-down"></div>
             <h2>Assemble Data</h2>
             <ul>
-              <li>Collect additional data or use existing datasets.</li>
-              <li>Perform exploratory data analysis on sample data.</li>
-              <li>Engineer features with input from subject matter experts.</li>
+              <li class="feasibility-study">Collect additional data or use existing datasets.</li>
+              <li class="feasibility-study">Perform exploratory data analysis on sample data.</li>
+              <li class="development-sprints">Engineer features with input from subject matter experts.</li>
             </ul>
           </li>
           <li class="subprocess">
@@ -59,9 +59,9 @@ permalink: /development/
             <div class="arrow-down"></div>
             <h2>Build Model</h2>
             <ul>
-              <li>Choose a machine learning model and evaluation metric.</li>
-              <li>Train and evaluate model and tune hyperparameters.</li>
-              <li>Improve model fairness, size, explainability and robustness.</li>
+              <li class="development-sprints">Choose a machine learning model and evaluation metric.</li>
+              <li class="development-sprints">Train and evaluate model and tune hyperparameters.</li>
+              <li class="development-sprints">Improve model fairness, size, explainability and robustness.</li>
             </ul>
           </li>
           <li class="subprocess">
@@ -69,12 +69,17 @@ permalink: /development/
             <div class="arrow-down"></div>
             <h2>Deploy Solution</h2>
             <ul>
-              <li>Make launch decision based on the system’s ability to meet key objectives.</li>
-              <li>Deploy model and integrate with the existing system.</li>
-              <li>Set up model monitoring and maintenance workflows.</li>
+              <li class="development-sprints">Make launch decision based system’s ability to meet objectives.</li>
+              <li class="development-sprints">Deploy model and integrate with the existing system.</li>
+              <li class="development-sprints">Set up model monitoring and maintenance workflows.</li>
             </ul>
           </li>
         </ol>
+        <ul class="legend d-none d-lg-block">
+          <li><span class="ai-for-executives"></span> AI for Executives</li>
+          <li><span class="feasibility-study"></span> AI Feasibility Study</li>
+          <li><span class="development-sprints"></span> AI Development Sprints</li>
+        </ul>
       </div>
     </div>
   </div>

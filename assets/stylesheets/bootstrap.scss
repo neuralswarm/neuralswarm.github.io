@@ -385,6 +385,31 @@ article {
   }
 }
 
+.legend {
+  padding: 0;
+  list-style-type: none;
+
+  li {
+    margin: 8px 0;
+
+    span {
+      float: left; width: 24px; height: 24px; margin-right: 12px;
+    }
+
+    .ai-for-executives {
+      background-color: $gray-900;
+    }
+
+    .feasibility-study {
+      background-color: $gray-800;
+    }
+
+    .development-sprints {
+      background-color: $gray-700;
+    }
+  }  
+}
+
 .process {
   display: flex;
   margin: 1rem 0;
@@ -421,7 +446,7 @@ article {
     }
 
     ul {
-      padding: 0 24px 0 0;
+      padding: 0 16px 0 0;
       list-style-type: none;
       color: #999;
 
@@ -435,6 +460,24 @@ article {
 
         @include media-breakpoint-down(lg) {
           margin: 0;
+        }
+
+        @include media-breakpoint-up(lg) {
+          padding: 16px;
+        }
+      }
+
+      @include media-breakpoint-up(lg) {
+        .ai-for-executives {
+          background-color: $gray-900;
+        }
+
+        .feasibility-study {
+          background-color: $gray-800;
+        }
+
+        .development-sprints {
+          background-color: $gray-700;
         }
       }
     }
