@@ -29,7 +29,6 @@ $input-btn-focus-width: 0;
 
 @import "bootstrap/bootstrap-utilities";
 @import "bootstrap/bootstrap";
-@import "tomorrow-night.css";
 
 /*
  *  Responsive Font Sizes (RFS)
@@ -314,10 +313,31 @@ article {
     }
   }
 
+  h3 {
+    margin: 2rem 0 1rem 0;
+    font-size: inherit;
+    font-weight: bold;
+
+    @include media-breakpoint-up(lg) {
+      margin: 2.5rem 0 1rem 0;
+      font-size: inherit;
+    }
+  }
+
   a:link    { color: #58a6ff; text-decoration: none; }
   a:visited { color: #58a6ff; text-decoration: none; }
   a:hover   { color: #58a6ff; text-decoration: underline; }
   a:active  { color: #58a6ff; text-decoration: underline; }
+
+  ol li,
+  ul li {
+    margin-bottom: 1rem;
+
+    ol,
+    ul {
+      margin-top: 1rem;
+    }
+  }
 
   blockquote {
     font-size: 2rem;
@@ -337,7 +357,7 @@ article {
     border-bottom: thin solid $secondary;
 
     caption {
-      color: #999;
+      color: #999999;
       font-size: 1rem;
     }
 
@@ -373,8 +393,7 @@ article {
     margin-top: 0;
     margin-bottom: 1.5rem;
     width: 100%;
-    color: #999;
-    font-size: 1rem;
+    color: #999999;
     font-style: normal;
 
     @include media-breakpoint-up(lg) {
@@ -584,6 +603,10 @@ a:hover,
     margin-top: 1em;
   }
 
+  .nav-item ul {
+    margin-top: 1em;
+  }
+
   .nav-link {
     padding: 0;
 
@@ -600,5 +623,17 @@ code {
 #services {
   .card {
     background-color: shade-color($info, 33%);
+  }
+}
+
+.highlighter-rouge {
+  margin: 1rem 0;
+  padding: 16px;
+  font-size:  85%;
+  background-color: #161b22;
+  border-radius: 6px;
+
+  pre {
+    margin-bottom: 0;
   }
 }

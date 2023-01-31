@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{%- assign author = site.data.authors[page.author] -%}
 {%- assign date_format = "%B %Y" -%}
 
 <header class="article-header">
@@ -13,7 +12,18 @@ layout: default
         <p class="text-uppercase mb-0"><small>{{ page.tag }}</small></p>
         <h1 class="display-5 my-3" itemprop="name headline">{{ page.title | escape }}</h1>
         <p class="lead">{{ page.description }}</p>
-        <p class="d-block d-lg-none"><a href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a></p>
+        <p class="d-block d-lg-none">
+          {% for author_key in page.authors %}
+            {% assign author = site.data.authors[author_key] %}
+            {%- if forloop.first -%}
+              <span>By </span><a href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a>
+            {%- elsif forloop.last -%}
+              <span> and </span><a href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a>
+            {%- else -%}
+              <span>, </span><a href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a>
+            {%- endif -%}
+          {% endfor %}
+        </p>
         <p class="d-block d-lg-none"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time></p>
       </div>
     </div>
@@ -21,17 +31,38 @@ layout: default
 </header>
 <section class="article-body py-5 bg-dark">
   <div class="container">
-    <div class="row gx-0">
+    <div class="row gx-3">
       <div class="d-none d-lg-block col-lg-2">
         <aside class="mt-2 py-4 border-secondary border-top">
-          <!-- <p><a href="https://www.linkedin.com/in/{{ author.linkedin }}/"> <img class="img-fluid filter" src="{{ author.picture }}" alt="{{ author.name }}"></a></p> -->
-          <p class="text-secondary"><a class="link-secondary" href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a></p>
+          <!-- <p class="text-secondary">Authors</p>
+          <ul class="list-unstyled">
+            {% for author_key in page.authors %}
+              {% assign author = site.data.authors[author_key] %}
+              <li class="position-relative">
+                <p><img class="w-50 filter" src="{{ "assets/images/authors/" | append: author_key | append: ".jpg" | relative_url }}" alt="{{ author.name }}"/></p>
+                <p><a class="link-secondary stretched-link" href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}<br />{{ author.title }}</a></p>
+              </li>
+            {% endfor %}
+          </ul>
+          <hr class="my-4"> -->
+          <p class="text-secondary">
+            {% for author_key in page.authors %}
+              {% assign author = site.data.authors[author_key] %}
+              {%- if forloop.first -%}
+                <span>By </span><a class="link-secondary" href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a>
+              {%- elsif forloop.last -%}
+                <span> and </span><a class="link-secondary" href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a>
+              {%- else -%}
+                <span>, </span><a class="link-secondary" href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a>
+              {%- endif -%}
+            {% endfor %}
+          </p>
           <p class="text-secondary"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time></p>
           <p class="text-secondary">{%- include post_read_time.html page=page -%}</p>
           {%- include post_share.html page=page -%}
         </aside>
         <nav id="toc" class="navbar py-4 sticky-top align-self-start border-secondary border-top border-bottom">
-          {% include toc.html html=content class='nav.flex-column' item_class='nav-item' anchor_class='nav-link link-secondary' %}
+          {% include toc.html html=content class='nav.flex-column' item_class='nav-item' submenu_class='nav.flex-column ms-4' anchor_class='nav-link link-secondary' %}
         </nav>
       </div>
       <div class="d-none d-lg-block col-lg-1"></div>

@@ -4,7 +4,7 @@ tag: Learn
 title: Auditing an AI System
 description: A new framework for auditing an AI System.
 image: assets/posts/auditing-an-ai-system/splash.jpg
-author: tlyleung
+authors: [tlyleung]
 comments: false
 ---
 

@@ -22,7 +22,7 @@ permalink: /training/
         <p>At <em>Neural Swarm</em>, you receive expert tuition from experienced practitioners. Our <em>AI for Executives</em> course is developed by experienced Machine Learning practitioners, who hold doctorate-level degrees in Computer Science.</p>
         <div class="row pt-3">
           <div class="col-3">
-            <p><img class="img-fluid filter" src="{{ "assets/images/headshot.jpg" | relative_url }}" alt="Timothy Leung"/></p>
+            <p><img class="img-fluid filter" src="{{ "assets/images/authors/tlyleung.jpg" | relative_url }}" alt="Timothy Leung"/></p>
           </div>
           <div class="col-9">
             <p><strong>Timothy Leung, PhD</strong><br />Director of Machine Learning</p>

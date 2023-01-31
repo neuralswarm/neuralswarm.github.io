@@ -1,6 +1,15 @@
 tlyleung:
   name: Timothy Leung
-  picture: /assets/images/headshot.jpg
+  title: Managing Director
+  picture: /assets/images/authors/tlyleung.jpg
   url: https://twitter.com/tlyleung/
   twitter: tlyleung
   linkedin: tlyl
+
+plyleung:
+  name: Philip Leung
+  title: Machine Learning Engineer
+  picture: /assets/images/authors/plyleung.jpg
+  url: https://twitter.com/plyleung/
+  twitter: plyleung
+  linkedin: philip-leung-8955b338
