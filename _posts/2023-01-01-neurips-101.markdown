@@ -1,0 +1,191 @@
+---
+layout: post
+tag: Learn
+title: NeurIPS 101
+description: A first-timer's guide to getting the most out of the conference.
+image: assets/posts/neurips-101/splash.jpg
+authors: [tlyleung]
+comments: false
+---
+
+## Introduction
+
+### Overview of NeurIPS
+
+[NeurIPS](https://nips.cc/) (or the Conference and Workshop on Neural Information Processing Systems) is one of the most prestigious and influential conferences in the field of Artificial Intelligence. It focuses on Machine Learning and Computational Neuroscience, and covers a wide range of topics relating to Neural Networks and their applications. In 2022, more than 10,000 conference attendees went to the conference.
+
+### Comparison with ICLR and ICML
+
+There are two other important Artificial Intelligence conferences:
+- [ICLR (International Conference on Learning Representations)](https://iclr.cc/) focuses on representation learning. It is generally more applied in nature than NeurIPS, with a stronger emphasis on practical applications of Machine Learning and only started in 2013.
+- [ICML (International Conference on Machine Learning)](https://icml.cc/) has a broad focus that encompasses many Machine Learning topics. It is more theoretical in nature than NeurIPS or ICLR, with a stronger emphasis on foundational research in Machine Learning. The first ICML conference was held in 1980.
+
+In terms of content, NeurIPS has a wider scope than ICLR or ICML, covering a range of topics related to Neural Networks and their applications in areas such as Computer Vision, Natural Language Processing, and Robotics. As a result, the conference typically attracts a diverse mix of attendees, including researchers, engineers, students from academia, industry, and government organizations.
+
+## Planning Ahead
+
+### Setting goals for the conference
+
+Different people have different goals for NeurIPS, such as:
+
+1. **Presenting research:** Researchers may attend NeurIPS to present their work at a Poster Session or a Workshop and get feedback from their peers. This can be a valuable opportunity for researchers to get recognition for their work and receive feedback on their research. Interacting with other attendees who may pass by your poster or who may be at the same workshop that you're presenting at can be a good way to make connections and find potential research collaborators.
+2. **Learning about new research and developments:** NeurIPS is a leading conference in the field, and attendees can learn about the latest advances. Poster sessions can be particularly good for this: peruse the poster schedule beforehand, arrive early and don't be shy about asking questions and engaging in discussion. During Expo Day, companies often run demos which can be an excellent opportunity to try out models that are otherwise closed to the general public and to speak to the researchers who built them. E.g. DeepMind allowed conference attendees to try out Flamingo, a multi-modal model that can interpret both image and text.
+3. **Exploring job opportunities:** Many companies and organizations attend NeurIPS to recruit Research Scientists and Engineers. Attending the conference can be a good way to learn about job openings and connect with potential employers. Consider taking the time to visit the Expo Hall and talk to the representatives at each booth, who are on hand to answer questions and provide information about job openings. Companies that participate in Expo Day include:
+  - AI companies, such as [DeepMind](https://www.deepmind.com/) and [OpenAI](https://openai.com/)
+  - AI startups, such as [Co:here](http://cohere.ai/) and [Waymo](https://waymo.com/)
+  - AI tooling startups, such as [PyTorch Lightning](https://lightning.ai/) and [Weights & Biases](https://wandb.ai/)
+  - Tech companies, such as [Google AI](https://ai.google/) and [Meta AI](https://ai.facebook.com/)
+  - Hedge funds, such as [Hudson River Trading](https://www.hudsonrivertrading.com/) and [Jane Street Capital](https://www.janestreet.com/)
+  - Traditional companies, such as [Disney Research](https://la.disneyresearch.com/) and [Sony](https://www.sony.com/en/SonyInfo/sony_ai/)
+  - Hardware companies, such as [GraphCore](http://www.graphcore.ai/) and [LambdaLabs](http://www.lambdalabs.com/)
+  - Consulting firms, such as [Accenture](http://www.accenture.com/) and [QuantumBlack](https://www.quantumblack.com/)
+
+![DeepMind Booth](/assets/posts/neurips-101/deepmind-booth.jpg)
+*DeepMind Booth*
+
+### Making the most of the conference schedule
+
+When the NeurIPS schedule is published, there are several steps you can take to make it easier for yourself when you attend the conference later on:
+
+1. Review the program and use the conference website to favorite the sessions and events that align with your goals for the conference.
+2. Plan your schedule in advance, including any breaks or downtime you may need. Consider leaving some flexibility in your schedule for unplanned events, last-minute networking opportunities or simply exploring the host city.
+3. Visit company booths that align with your research interests. They often have copies of company-specific schedules that list the poster sessions, demos and workshops that involve the company's researchers.
+5. If you are presenting research at the conference, review the schedule and make note of any setup or preparation time you may need before your presentation.
+
+### Decide whether or not to stay for the workshops
+
+Deciding whether to stay for the additional two days of workshops at NeurIPS can be difficult, as it depends on various factors, such as your personal goals for the conference, your budget, and your schedule. However, here are some things to consider when deciding whether to stay for the workshops:
+
+1. Consider your goals for the conference: If you are attending NeurIPS to learn about specific topics or get more in-depth knowledge in a particular area, staying for the workshops may be a good option.
+2. Consider the cost: On top of the workshop registration cost, staying for the additional two days of workshops will likely involve other expenses such as accommodation, transportation, and meals. If you are on a tight budget, weigh the costs against the benefits of staying for the workshops.
+3. Consider your schedule: If you have other commitments or obligations that you need to attend after the main conference, consider whether staying for the workshops is feasible. Satellite conferences, such as PyTorch Conference in 2022, often overlap with the workshop days.
+
+### Financial assistance
+
+There are several sources of financial assistance available for NeurIPS attendees, including:
+
+1. **Scholar award:** Students or junior postdocs that have an accepted paper at the main conference may be eligible for financial assistance on the grounds of diversity and accessibility, affinity group membership, financial hardship and cost of attendance, and first-time attendance. The scholar award includes complimentary in-person conference and workshop registration and will receive a complimentary 7-night stay at one of the NeurIPS affiliate hotels. 
+2. **Volunteer application:** If eligible, student volunteers are provided free registration to the main conference and in return, will be expected to complete a volunteer shift as a mentor, group leader, workshop leader or demo leader.
+3. **Employer support:** Some employers may be willing to cover the costs of attending NeurIPS for their employees, especially if the conference is relevant to their work or the company's interests.
+
+It is worth noting that financial assistance options may vary from year to year and may be limited, so it is important to start looking for options as early as possible. Attendees are also encouraged to explore a variety of options and to be proactive in seeking out financial assistance.
+
+## Attending the Conference
+
+### Conference schedule
+
+There are many different parts to the NeurIPS conference, and it can be helpful to approach each one with a specific strategy in mind. Here are some tips for approaching the different parts of the conference:
+
+1. **Expo day:** The Expo Day at NeurIPS, which occurs on the first day of the conference, is an opportunity for attendees to learn about the latest research from companies and organizations in the field of Artificial Intelligence. In addition to the booths in the Expo Hall, companies will also present talks and gives demos about their work.
+2. **Invited talks:** There are seven invited talks spread over the four main conference days. Invited talks are typically given by leading researchers who have made significant contributions to the field and are well-respected in the community. Because of the number of attendees, it can be difficult to interact with the speaker. Instead, these invited talks serves the purpose of getting everyone on the same page, talking about a single motivating topic or issue.
+3. **Poster sessions:** Poster sessions are a more informal way for researchers to present their work and interact with conference attendees. There are six poster sessions over the course of the main conference, with around 500 posters on display at each session. Consider stopping by the poster sessions to learn about new research and to ask questions of the researchers.
+4. **Workshops:** NeurIPS offers a variety of workshops on the two days following the main conference. Due to their smaller size, workshops can be a good opportunity to learn about specific topics in more depth and to connect with speakers and attendees who have similar interests. At NeurIPS 2022, there were nearly 50 in-person workshops with titles such as "Federated Learning: Recent Advances and New Challenges" and "Temporal Graph Learning Workshop". 
+5. **Socials:** On the third and fourth evenings of the conference, there are a number of socials organised by conference attendees. Past socials have included an Open Mic Night, an Interdisciplinary Mixer, K-Pop in NeurIPS, and Space & ML. These socials are usually catered and are a good way for attendees to make connections outside of their university groups and research areas.
+6. **Parties:** Companies exhibiting at NeurIPS often hold parties, giving the opportunity for potential job candidates to interact with company representatives in a casual environment. It's worth noting that not all parties or social events are advertised, so sometimes you have to ask around, or the invitation might come from an informal chat with somebody.
+
+![Apple Expo Talk: Miguel Angel Bautista on "Generating and Understanding 3D Scenes"](/assets/posts/neurips-101/apple-talk.jpg)
+*Apple Expo Talk: Miguel Angel Bautista on "Generating and Understanding 3D Scenes"*
+
+### Making connections at the conference
+
+By taking advantage of opportunities to connect with others at the conference, you can make valuable connections and build relationships that can benefit you in your career or studies. Here are some tips for making connections with other attendees at NeurIPS:
+
+1. Practice your research pitch: the most interesting interactions at the conference will often be one-on-one. By practicing your research pitch, you can present yourself in the best light and hopefully engage in a meaningful interaction. 
+2. Attend social events: Many conferences, including NeurIPS, offer social events such as receptions, parties, and networking dinners. These events can be a great opportunity to meet new people and make connections in a more relaxed setting.
+3. Join discussion groups: Some conferences, including NeurIPS, offer discussion groups on specific topics or areas of interest. These groups can be a good way to connect with other attendees who share your interests and to have in-depth conversations about topics related to the conference.
+4. Volunteer: Volunteering at the conference can be a good way to meet other attendees and get more involved in the conference. It can also be a good way to make a positive impact and contribute to the conference community.
+5. Attend the poster sessions: Poster sessions are a great opportunity to meet researchers and learn about their work in a more informal setting. Consider bringing your own poster to present and be prepared to talk about your work and interests.
+6. Reach out to people in advance: If you know who you would like to meet at the conference, consider reaching out to them in advance through social media or email to introduce yourself and let them know you will be attending. This can help to break the ice and make it easier to connect at the conference.
+7. Social media: the Machine Learning community is very active on Twitter and a lot of interactions occur on the platform. It's customary for conference attendees that are on Twitter to suffix their name with "@ NeurIPS" to let others know that they are attending the conference in-person and are open to meeting up.
+
+![Poster Session](/assets/posts/neurips-101/poster-session.jpg)
+*Poster Session*
+
+## Highlights from NeurIPS 2022
+
+### Invited talks
+
+The size of the audience that attends the invited talks makes interacting with the speaker difficult, if not impossible. However, it's beneficial to be present when something groundbreaking is discussed, which briefly aligning all conference attendees to a single topic, which can be good for productive discourse.
+
+The invited talks in 2022 were:
+- [David Chalmers](https://twitter.com/davidchalmers42) on "Are Large Language Models Sentient?"
+- [Rediet Abede](https://twitter.com/red_abebe) on "Algorithms on the Bench: Examining Validity of ML Systems in the Public Sphere"
+- Emmanuel Candes on "Conformal Prediction in 2022"
+- [Juho Kim](https://twitter.com/imjuhokim) on "Interaction-centric AI"
+- [Alondra Nelson](https://twitter.com/AlondraNelson46) on "Blueprint for an AI Bill of Rights: Making Automated Systems Work for the American People"
+- Isabelle Guyon on "The Data-centric Era: How ML is Becoming an Experimental Science"
+- [Geoffrey Hinton](https://twitter.com/geoffreyhinton) on "The Forward-Forward Algorithm for Training Deep Neural Networks"
+
+### Satellite conferences and workshops
+
+A gathering of such a large group of Machine Learning researchers in one place occurs only once or twice a year. For this reason, there are many AI-focused satellite events occuring at the end of the conference. In 2022, [PyTorch Conference](https://pytorch.org/blog/announcing-pytorch-conference-2022/) was held at [Generations Hall](http://www.generationshall.com/), which saw PyTorch 2.0 being announced. The [4<sup>th</sup> Neural Scaling Laws Workshop](https://sites.google.com/mila.quebec/scaling-laws-workshop) was held at [New Orleans Marriott Warehouse Arts District](https://www.marriott.com/en-us/hotels/msymc-new-orleans-marriott-warehouse-arts-district/overview/) that had talks around Artificial General Intelligence (AGI) and AI safety and alignment.
+
+![PyTorch Conference 2022](/assets/posts/neurips-101/pytorch-conference.jpg)
+*PyTorch Conference 2022*
+
+### Parties
+
+- Tuesday, 29 November
+  - [Disney Research](https://www.disneyresearch.com/) at Sidecar Patio & Oyster Bar
+  - [G-Research](https://www.gresearch.co.uk/) at Boat Party
+  - [Jane Street](https://www.janestreet.com/) at ???
+  - [PyTorch Lightning](https://lightning.ai/) at The Bower
+  - [Stability AI](https://stability.ai/) at Crescent City Brewhouse
+  - [Two Sigma](https://www.twosigma.com/) at Cochon Butcher
+  - [Waymo](https://waymo.com/) at ???
+- Wednesday, 30 November
+  - [Amazon Science](https://www.amazon.science/) at Palace Café
+  - [AstraZeneca](https://www.astrazeneca.com/) at Renaissance New Orleans Arts Warehouse District Hotel
+  - [DeepMind](https://www.deepmind.com/) at ???
+  - [Google Research](https://research.google/) at ???
+  - [Hudson River Trading](https://www.hudsonrivertrading.com/) at Calcasieu
+  - [Meta AI](https://ai.facebook.com/) at ???
+  - [MosaicML](https://www.mosaicml.com/) at Calcasieu
+  - [OpenAI](https://openai.com/) at ???
+  - [PillarVC](https://www.pillar.vc/) at Luke's
+- Thursday, 1 December
+  - [Generally Intelligent](https://generallyintelligent.com/) at ???
+  - [ML Collective](https://mlcollective.org/) at Woldenberg Park 
+- Saturday, 3 December
+  - [TikTok](https://www.tiktok.com/) at Hampton Inn and Suites
+
+### Conference themes
+
+[Dongkwan Kim](https://dongkwan-kim.github.io/) has compiled a list of frequent bigrams from accepted paper titles:
+
+1. Neural Network
+2. Reinfor* Learn*
+3. Languag* Model
+4. Graph Neural
+5. Feder* Learn*
+6. Represent* Learn*
+7. Generat* Model*
+8. Deep Learn*
+9. Vision Transfom*
+10. Offlin* Reinforc*
+
+### Conference in numbers
+
+- Submissions: 9,634
+- Accepted submissions: 2,672
+- Senior area chairs: 82
+- Area chairs: 742
+- Reviewers: 10,406
+
+## Conclusion
+
+Reflecting on your experience at a conference like NeurIPS can help you apply what you've learned to your research work or graduate studies, and make the most of the time and resources you invested in attending the conference. Here are a few tips on how to reflect on your experience:
+
+- **Review your notes and materials:** Review the notes you took during the conference, as well as any materials you collected, such as papers, posters, or handouts. This will help you remember what you learned and identify key takeaways.
+
+- **Identify key themes:** Look for patterns and themes in the talks and workshops you attended. Identifying key themes can help you understand how the conference relates to your work or studies, and can help you identify specific areas of interest to explore further.
+
+- **Reflect on your learning:** Consider how the conference has impacted your understanding of the field, and how you can apply what you've learned to your work or studies. Think about what you found most valuable and how you can apply it to your future work.
+
+- **Prioritize and plan:** Based on what you learned, identify the most important next steps for you to take. Prioritize them, and create a plan for how you will apply your learning to your work or studies.
+
+- **Follow up with the people you met:** Follow up with the people you met during the conference, and keep in touch with them using email, LinkedIn or Twitter. This can help you establish collaborations, learn from their experiences, and build your professional network.
+
+- **Share your experience:** Share your experience with others. Write about it, present it, or teach it to your peers. Sharing the knowledge you acquired in the conference can help others learn from your experience and gain a new perspective on their work.
+
+Attending NeurIPS can be an exciting and valuable experience. With the proper preparation, planning and attitude, you can make the most of the conference and come away with new knowledge, connections, and inspiration for your work. Additionally, don't forget to explore the host city and take advantage of any cultural opportunities that it has to offer. By following the tips outlined in this guide, you'll be well on your way to getting the most out of your first NeurIPS conference.
