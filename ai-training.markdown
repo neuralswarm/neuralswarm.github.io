@@ -20,16 +20,6 @@ permalink: /training/
         <p>The course is designed for 4–8 participants. It can be conducted in-person or remotely and has a high level of interactivity and personalisation.</p>
         <h2 class="fs-5 fw-bold py-3">Instructors</h2>
         <p>At <em>Neural Swarm</em>, you receive expert tuition from experienced practitioners. Our <em>AI for Executives</em> course is developed by experienced Machine Learning practitioners, who hold doctorate-level degrees in Computer Science.</p>
-        <div class="row pt-3">
-          <div class="col-3">
-            <p><img class="img-fluid filter" src="{{ "assets/images/authors/tlyleung.jpg" | relative_url }}" alt="Timothy Leung"/></p>
-          </div>
-          <div class="col-9">
-            <p><strong>Timothy Leung, PhD</strong><br />Director of Machine Learning</p>
-            <p class="small">Timothy has extensive experience building Machine Learning models for improved business decision-making and process automation, as well as a strong track record of applying deep learning to structured data. Timothy is an <em>AWS</em> and <em>Google Cloud</em> certified Machine Learning Engineer.</p>
-            <p class="small">Previously, Timothy incubated a company through <em>Entrepreneur First</em>, a startup scheme for UK’s brightest graduates. Timothy holds a Computer Science PhD from <em>Imperial College London</em> and a BSc (Hons.) Computer Science degree from <em>University College London</em>.</p>
-          </div>
-        </div>
         <h2 class="fs-5 fw-bold py-3">Prerequisites</h2>
         <p>No technical knowledge is required for this course.</p>
         <h2 class="fs-5 fw-bold py-3">Cost</h2>
