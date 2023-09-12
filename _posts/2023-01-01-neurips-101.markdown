@@ -118,7 +118,7 @@ The invited talks in 2022 were:
 
 ### Satellite conferences and workshops
 
-A gathering of such a large group of Machine Learning researchers in one place occurs only once or twice a year. For this reason, there are many AI-focused satellite events occuring at the end of the conference. In 2022, [PyTorch Conference](https://pytorch.org/blog/announcing-pytorch-conference-2022/) was held at [Generations Hall](http://www.generationshall.com/), which saw PyTorch 2.0 being announced. The [4<sup>th</sup> Neural Scaling Laws Workshop](https://sites.google.com/mila.quebec/scaling-laws-workshop) was held at [New Orleans Marriott Warehouse Arts District](https://www.marriott.com/en-us/hotels/msymc-new-orleans-marriott-warehouse-arts-district/overview/) that had talks around Artificial General Intelligence (AGI) and AI safety and alignment.
+A gathering of such a large group of Machine Learning researchers in one place occurs only once or twice a year. For this reason, there are many AI-focused satellite events occurring at the end of the conference. In 2022, [PyTorch Conference](https://pytorch.org/blog/announcing-pytorch-conference-2022/) was held at [Generations Hall](http://www.generationshall.com/), which saw PyTorch 2.0 being announced. The [4<sup>th</sup> Neural Scaling Laws Workshop](https://sites.google.com/mila.quebec/scaling-laws-workshop) was held at [New Orleans Marriott Warehouse Arts District](https://www.marriott.com/en-us/hotels/msymc-new-orleans-marriott-warehouse-arts-district/overview/) that had talks around Artificial General Intelligence (AGI) and AI safety and alignment.
 
 ![PyTorch Conference 2022](/assets/posts/neurips-101/pytorch-conference.jpg)
 *PyTorch Conference 2022*
